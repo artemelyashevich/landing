@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+button {
+  font-size: 0.85em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  background-color: #302D3D;
+  position: relative;
+  padding: 3em 8em;
+}
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__top img {
+  width: 13em;
+  height: 6em;
+}
+.header__top-auth {
+  display: flex;
+  gap: 5.938em;
+}
+.header__top-auth-btn {
+  cursor: pointer;
+  padding: 0.625em 1.875em;
+  color: #302D3D;
+  border-radius: 1.563em;
+  border: none;
+}
+.header__slogan {
+  margin-left: 2em;
+  color: #DEDCE7;
+  font-size: 2.25em;
+}
+.header__slogan span {
+  color: #fff;
+}
+.header__slogan p {
+  margin-left: 7em;
+}
+.header__about {
+  display: flex;
+  gap: 10em;
+  padding-bottom: 1em;
+}
+.header__about-right {
+  width: 30em;
+}
+.header__about-right p {
+  color: #fff;
+  font-size: 1.25em;
+  margin: 1em 0;
+}
+.header__about-right button {
+  padding: 0.625em 1.25em;
+  border-radius: 0.625em;
+  background-color: #D0082C;
+  color: #fff;
+  font-size: 1.25em;
+  border: none;
+}
+.header__navs {
+  display: flex;
+  gap: 1.5em;
+  position: absolute;
+  left: 50%;
+  bottom: -2.75%;
+  transform: translate(-50%);
+}
+.header__navs a {
+  padding: 0.625em 1.875em;
+  border-radius: 1.875em;
+  border: 1px solid #302D3D;
+  background-color: #fff;
+}
+
+.brackets {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: end;
+}
+
+.pluses {
+  width: 25em;
+}
