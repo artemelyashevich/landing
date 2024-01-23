@@ -4,6 +4,7 @@
     background-color: $main-color;
     position: relative;
     padding: 3em 8em;
+    margin-bottom: 2em;
 
     &__top {
         display: flex;
@@ -60,7 +61,7 @@
             button {
                 padding: 0.625em 1.25em;
                 border-radius: .625em;
-                background-color: #D0082C;
+                background-color: $btn-color;
                 color: #fff;
                 font-size: 1.25em;
                 border: none;
