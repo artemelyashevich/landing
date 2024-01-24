@@ -20,6 +20,11 @@ a {
     text-decoration: none;
 }
 
+.container {
+    padding: 3em 8em;
+}
+
 @import './var';
 @import './header';
-@import './footer'
+@import './footer';
+@import './about';

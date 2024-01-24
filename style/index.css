@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+.container {
+  padding: 3em 8em;
+}
+
 .header {
   width: 100%;
   background-color: #302D3D;
@@ -115,6 +119,9 @@ a {
   color: white;
   padding: 0.8em 3.438em;
   border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 .footer__content {
   display: flex;
@@ -149,4 +156,55 @@ a {
 .copyright {
   text-align: center;
   margin-top: 8em;
+}
+
+.about {
+  margin-top: 3em;
+}
+.about__title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.313em;
+  font-size: 2.25em;
+  color: #302D3D;
+}
+.about__title img {
+  width: 11em;
+}
+.about__content-text {
+  width: 50em;
+  margin-bottom: 3em;
+}
+.about__content-text h3 {
+  margin-bottom: 1em;
+}
+.about__content-group {
+  display: flex;
+  gap: 2em;
+}
+.about__content-group span {
+  font-weight: bold;
+}
+.about__goal {
+  margin-top: 3em;
+  display: flex;
+  gap: 3em;
+  position: relative;
+}
+.about__goal h3 {
+  font-size: 1em;
+  margin-bottom: 3em;
+}
+.about__goal p {
+  width: 20em;
+}
+.about__goal-img {
+  position: absolute;
+  height: 7em;
+  top: 2em;
+}
+.about__goal__pluses {
+  position: relative;
+  top: 2.5em;
+  width: 15em;
 }
